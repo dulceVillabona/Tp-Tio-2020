@@ -1,0 +1,198 @@
+/* CSS GENERAL Y DE INDEX */
+html{
+    background-color: black;
+}
+
+body{
+    margin: 0%;
+}
+
+.encabezado{
+    background-image: url(img/fondoencabezado.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 22%;
+}
+
+.navegador{
+    display: flex;
+    background-color:black;
+    margin: 0px;
+    padding-left: 0px;
+    position: sticky;
+    top: 0;
+}
+
+.navegador li{
+    list-style: none;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.navegador li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navegador li:hover{
+    border-bottom: 5px solid rgb(209, 158, 16);
+}
+
+.contenedorindex{
+    display: flex;
+    width: 100%;
+}
+
+.productosdestacados{
+    width: 70%;
+}
+
+.productosdestacados img{
+    width: 99%;
+    margin: 1% 1% 1% 0%;
+}
+
+.promociones{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.promociones img{
+    width: 98%;
+    margin: 2% 0% 2% 2%;
+}
+
+.formulario {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    background-image: url(img/fondoform.png);
+    background-size: cover;
+}
+
+.textoformulario, form{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    padding: 1%;
+}
+
+.textoformulario ul li{
+    list-style: none;
+}
+
+.formulario form input{
+    width: 100%;
+}
+
+form button{
+    margin: auto;
+    background-color: white;
+}
+
+.redessociales ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0px;
+}
+
+.redessociales ul li a img{
+    width: 40px;
+    margin: 5px;
+}
+
+/* CSS DE "PRODUCTOS" */
+
+.contenedor{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: black;
+    background-image: url(img/fondoform.png);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.producto{
+    width: 28%;
+    padding: 1%;
+    margin: 1%;
+}
+
+.producto img{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-self: center;
+}
+
+.producto ul li{
+    list-style: square;
+}
+
+.producto h1{
+    text-align: center;
+}
+
+.tabla-informacion{
+    width: 98%;
+    padding: 2%;
+}
+
+.tabla-informacion table, td, tr ,th{
+    border-collapse: collapse;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    margin: auto;
+}
+
+thead{
+    background-color: rgb(0, 0, 0) ;
+    color: white;
+}
+
+.tabla-informacion table{
+    width: 60%;
+}
+
+.tabla-informacion p{
+    padding: 1%;
+}
+
+
+#captcha{
+    margin: 0;
+    font-weight: bold;
+    
+}
+
+
+/* CSS DE "¿QUIENES SOMOS?" */
+
+.contenedor-historia{
+    width: 46%;
+    margin: 1%;
+    text-align: justify;
+    padding: 1%;
+}
+
+.contenedor-historia img{
+    width: 96%;
+    margin: 1%;
+    padding: 1%;
+}
+
+/* CSS VERIFICAR FORM */
+
+.correcto{
+    background-color: green;
+}
+.incorrecto{
+    background-color: red;
+}
